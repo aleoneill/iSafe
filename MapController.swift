@@ -27,7 +27,7 @@ class MapController: UIViewController, CLLocationManagerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //GMSServices.provideAPIKey("AIzaSyDXg1UKvJQXArKfTo4j_aY3-Wbc3ohHxvU")
-        GMSServices.provideAPIKey("AIzaSyAfoVZySQ9NiuArcD6LTJd_xxZ6iaATh4A")
+        GMSServices.provideAPIKey("APIKey")
         
         //Use Firebase library to configure APIs
         if (FirebaseApp.app() == nil){
